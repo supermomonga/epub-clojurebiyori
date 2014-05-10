@@ -1,0 +1,23 @@
+# ClojureBiyori epub conveter
+
+## What is this?
+
+It helps you to convert [ClojureBiyori](https://github.com/esehara/ClojureBiyori) to ePub.
+
+## How to use it
+
+1. Fetch original markdown source with `fetch` command.
+2. Convert markdowns into ePub with `convert` command. It'll create ePub file into `build` folder.
+3. Thats all!
+
+## TODO
+
+- Replace remote images to local images. It means we should get and save remote files.
+- Create TOC
+- Set page header
+- Syntax highlighting by using `pygments`.
+
+
+----
+
+Thanks [@esehara](https://github.com/esehara) for writing such a nice book!
