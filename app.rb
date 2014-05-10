@@ -62,7 +62,7 @@ class App < Thor
     builder = GEPUB::Builder.new do
       language 'ja'
       unique_identifier 'https://github.com/esehara/ClojureBiyori', 'ClojureBiyori', 'https://github.com/esehara/ClojureBiyori'
-      title 'Clojure日和'
+      title 'ClojureBiyori'
       creator 'esehara'
 
       resources(workdir: 'processing/') do
