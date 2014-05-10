@@ -13,7 +13,7 @@ It helps you to convert [ClojureBiyori](https://github.com/esehara/ClojureBiyori
 
 ## Environment
 
-I only tested it with Ruby version 2.1.0.
+It only tested it with Ruby version 2.1.0.
 
 ## TODO
 
