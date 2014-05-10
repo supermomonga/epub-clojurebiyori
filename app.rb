@@ -12,12 +12,13 @@ class App < Thor
 
   desc 'fetch', 'fetch ClojureBiyori source files.'
   def fetch
-    if FileTest.exist? "#{__dir__}/source"
+    source_dir = "#{__dir__}/source"
+    if FileTest.exist? source_dir
       puts "Update source files."
-      `cd #{__dir__}/source; git pull`
+      `cd #{source_dir}; git pull`
     else
       puts "Source files doesn't exist."
-      `git clone git@github.com:esehara/ClojureBiyori.git source`
+      `git clone git@github.com:esehara/ClojureBiyori.git #{source_dir}`
     end
   end
 
